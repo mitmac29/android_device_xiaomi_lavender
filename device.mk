@@ -14,6 +14,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Indicate the first api level the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 28
 
+# Dolby Support
+TARGET_USES_MIUI_DOLBY := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
