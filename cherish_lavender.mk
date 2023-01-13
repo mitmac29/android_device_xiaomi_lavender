@@ -17,6 +17,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=MiteshMacwana
 CHERISH_VANILLA := true
 
+# Sony Dolby
+$(call inherit-product, vendor/dolby/config.mk)
+
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
