@@ -166,6 +166,10 @@ include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
+# ViPER4AndroidFX Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    device/xiaomi/lavender/sepolicy/vendor/ViPER4AndroidFX
+
 # Treble
 BOARD_VNDK_VERSION := current
 
