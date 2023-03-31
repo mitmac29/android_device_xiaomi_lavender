@@ -1,6 +1,7 @@
 # Audio
 af.fast_track_multiplier=1
 audio.deep_buffer.media=true
+aaudio.mmap_policy=1
 audio.offload.min.duration.secs=30
 audio.offload.video=true
 audio.sys.noisy.broadcast.delay=600
