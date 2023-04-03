@@ -11,6 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common PixelOS stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
+PIXEL_LAUNCHER_VARIANT := fullmod2z
+ICONS_VARIANT := lawnicons
+
+# Inherit PixelLauncherExtended
+$(call inherit-product, vendor/PixelLauncherExtended/PixelLauncher.mk)
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
