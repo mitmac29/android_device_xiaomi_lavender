@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "mitmac29/kernel_xiaomi_lavender",
+    "target_path": "kernel/xiaomi/lavender",
+    "branch": "qti-oldcam"
+  },
+  {
+    "repository": "mitmac29/vendor_xiaomi_lavender",
+    "target_path": "vendor/xiaomi/lavender",
+    "branch": "12.1"
+  }
+]
