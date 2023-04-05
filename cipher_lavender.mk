@@ -17,9 +17,6 @@ TARGET_SUPPORTS_QUICK_TAP := true
 CIPHER_GAPPS := true
 CIPHER_BUILD_ZIP_TYPE := GAPPS
 
-# Inherit Gapps
-$(call inherit-product, vendor/partner_gms/products/gms.mk)
-
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
