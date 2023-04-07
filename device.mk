@@ -17,7 +17,7 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-cipher
+    $(LOCAL_PATH)/overlay-lineage
 
 # Dolby
 PRODUCT_COPY_FILES += \

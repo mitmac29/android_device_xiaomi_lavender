@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_lavender.mk
+    $(LOCAL_DIR)/cherish_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_lavender-user \
-    cipher_lavender-userdebug \
-    cipher_lavender-eng
+    cherish_lavender-user \
+    cherish_lavender-userdebug \
+    cherish_lavender-eng
