@@ -1,4 +1,4 @@
- #
+#
 # Copyright (C) 2018-2019 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -70,7 +70,6 @@ AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 USE_CUSTOM_AUDIO_POLICY := 0
-AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
 
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
