@@ -107,11 +107,6 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
-ifeq ($(TARGET_USES_MIUI_DOLBY),true)
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-     $(COMMON_PATH)/dolby/manifests/dolby_framework_matrix.xml
-endif
-
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
