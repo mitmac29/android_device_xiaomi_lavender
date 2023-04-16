@@ -19,6 +19,9 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 # ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Inherit GMS
+$(call inherit-product-if-exists, vendor/google/gms/common/gms-full.mk)
+
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
