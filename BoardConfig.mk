@@ -55,9 +55,9 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_ADDITIONAL_FLAGS += \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument" LLVM=1 LLVM_IAS=1
-TARGET_KERNEL_CLANG_VERSION := clang-r450784d
-TARGET_CLANG_PREBUILTS_VERSION := clang-r450784d
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r450784d
+TARGET_KERNEL_CLANG_VERSION := clang-nexus
+TARGET_CLANG_PREBUILTS_VERSION := clang-nexus
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-nexus
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
