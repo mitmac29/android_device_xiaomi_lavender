@@ -50,15 +50,15 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/xiaomi/lavender
-TARGET_KERNEL_CONFIG := lavender_defconfig
+TARGET_KERNEL_CONFIG := lavender-perf_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 TARGET_KERNEL_LLVM_BINUTILS := true
-TARGET_KERNEL_CLANG_VERSION := clang-nexus14
-TARGET_CLANG_PREBUILTS_VERSION := clang-nexus14
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-nexus14
+TARGET_KERNEL_CLANG_VERSION := clang-r450784d
+TARGET_CLANG_PREBUILTS_VERSION := clang-r450784d
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r450784d
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
